@@ -1,5 +1,5 @@
 body {
-	background-color: #9370DB;
+	background-color: lightblue;
 	color: #fff;
 	margin: 0;
 	display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .calculator_container {
-	background-color: rebeccapurple;
+	background-color: teal;
 	border-radius: 4px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	padding: 2rem 3rem;
