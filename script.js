@@ -25,7 +25,7 @@ function calculateTotals(){
   tip = Number(tip * bill)
   tipTotal.textContent = "$" + tip
   billTotal.textContent =  "$" + (bill + tip)
-  ppTotal.textContent = "$" + ((bill + tip)/ppl)
+  ppTotal.textContent = "$" + ((bill + tip)/ppl).toFixed(2)
 }
 
 
